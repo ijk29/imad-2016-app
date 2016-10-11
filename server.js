@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/article', function(req,res)
 {
-  res.sendFile("I just copied the code and have no idea how i made this page !")  
+  res.send("I just copied the code and have no idea how i made this page !")  
 })
 
 app.get('/ui/style.css', function (req, res) {
